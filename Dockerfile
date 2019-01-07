@@ -1,6 +1,6 @@
 FROM node
 
-MAINTAINER Gustavo Apolinario <gustavo.guss@gmail.com>
+MAINTAINER joe
 
 RUN apt-get update && apt-get upgrade -y \
     && apt-get clean
@@ -8,11 +8,10 @@ RUN apt-get update && apt-get upgrade -y \
 RUN mkdir /app
 WORKDIR /app
 
-COPY package.json /app/
-RUN npm install
+
 # --only=production
 
-COPY src /app/src
+
 
 EXPOSE 3000
 
