@@ -1,4 +1,4 @@
-FROM registry-intl.ap-south-1.aliyuncs.com/cognizant_lab/devops_lab:cicdBlue
+FROM paranjothi/cicdtest:14
 
 MAINTAINER Paranjothi
 
