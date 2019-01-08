@@ -1,18 +1,13 @@
-FROM node
+FROM registry-intl.ap-south-1.aliyuncs.com/cognizant_lab/devops_lab:cicdBlue
 
-MAINTAINER joe
+MAINTAINER Paranjothi
 
-RUN apt-get update && apt-get upgrade -y \
-    && apt-get clean
+RUN apt-get update && apt-get -y upgrade
 
-RUN mkdir /app
-WORKDIR /app
+WORKDIR /usr/local/tomcat
 
-
-# --only=production
+COPY helloworld.war /usr/local/tomcat/webapps
 
 
+EXPOSE 9090
 
-EXPOSE 3000
-
-CMD [ "npm", "start" ]
