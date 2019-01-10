@@ -10,6 +10,8 @@
 		<h2><%= title %></h2>
 		<p>
 			If you see this, the example Blue Deploy war-file was deployed!
+			
+			paranjothi/cicdtest:18
 		</p>
 		<p>
 			<%= new java.util.Date() %>
