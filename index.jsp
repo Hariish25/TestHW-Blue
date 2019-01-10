@@ -11,7 +11,7 @@
 		<p>
 			If you see this, the example Blue Deploy war-file was deployed!
 			
-			paranjothi/cicdtest:18
+			paranjothi/cicdtest:22
 		</p>
 		<p>
 			<%= new java.util.Date() %>
