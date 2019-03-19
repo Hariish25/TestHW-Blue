@@ -1,4 +1,4 @@
-//FROM paranjothi/cicdtest:14
+# FROM paranjothi/cicdtest:14
 
 MAINTAINER Paranjothi
 
