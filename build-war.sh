@@ -6,7 +6,8 @@ echo "Calling jar"
 echo
 jar -cvf helloworld.war *.jsp WEB-INF
 echo
-#echo "Moving helloworld.war to dist/ with option --FORCE"
-#mv -f helloworld.war /
+
+echo "Moving helloworld.war to dist/ with option --FORCE"
+mv -f helloworld.war /
 
 echo "Done! Project war file was created"
