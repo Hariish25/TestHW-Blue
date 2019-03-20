@@ -4,6 +4,12 @@ MAINTAINER Paranjothi
 
 RUN apt-get update && apt-get -y upgrade
 
+CMD [jar -cvf helloworld.war *.jsp WEB-INF]
+
+CMD [echo "Moving helloworld.war to dir/ with option --FORCE"]
+
+CMD [mv -f helloworld.war /]
+
 WORKDIR /usr/local/tomcat
 
 # RUN /PullDockerImage_CICD/build-war.sh
