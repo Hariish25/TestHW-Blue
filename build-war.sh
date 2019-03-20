@@ -9,4 +9,4 @@ echo
 #echo "Moving helloworld.war to dist/ with option --FORCE"
 #mv -f helloworld.war /
 
-echo "Done war file created"
+echo "Done! Project war file was created"
