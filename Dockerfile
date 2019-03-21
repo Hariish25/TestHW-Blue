@@ -1,4 +1,4 @@
-FROM paranjothi/cicdtest:14
+FROM paranjothi/test:$BUILD_NUMBER-1
 
 MAINTAINER Paranjothi
 
