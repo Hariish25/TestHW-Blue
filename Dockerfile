@@ -1,4 +1,4 @@
-FROM paranjothi/test:${BUILD_NUMBER}-1
+FROM paranjothi/test:10
 
 MAINTAINER Paranjothi
 
