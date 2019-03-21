@@ -11,6 +11,12 @@ pipeline {
         git 'https://github.com/Paranjothi/TestHW-Blue.git'
       }
     }
+    stage('creating a war file') {
+      steps {
+          sh 'jar -cvf helloworld.war *.jsp WEB-INF'
+          //sh 'mv -f helloworld.war /'
+      }
+    } 
     stage('Building image') {
       steps{
         script {
