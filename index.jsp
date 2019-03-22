@@ -9,9 +9,9 @@
 	<body>
 		<h2><%= title %></h2>
 		<p>
-			If you see this, the example Blue Deploy war-file was deployed!
+			Helloworld war-file was deployed!
 			
-			paranjothi/cicdtest:22
+			paranjothi/cicdtest:17
 		</p>
 		<p>
 			<%= new java.util.Date() %>
