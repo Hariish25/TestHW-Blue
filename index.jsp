@@ -11,7 +11,7 @@
 		<p>
 			Helloworld war-file was deployed!
 			
-			paranjothi/cicdtest:17
+			for FRIDAY's TEST
 		</p>
 		<p>
 			<%= new java.util.Date() %>
