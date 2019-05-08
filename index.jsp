@@ -11,7 +11,7 @@
 		<p>
 			Helloworld war-file was deployed!
 			
-			for FRIDAY's TEST
+			for TAG:18'th TEST
 		</p>
 		<p>
 			<%= new java.util.Date() %>
