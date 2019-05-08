@@ -8,7 +8,7 @@ RUN apt-get update && apt-get -y upgrade
 #CMD [echo "Moving helloworld.war to dir/ with option --FORCE"]
 #CMD [mv -f helloworld.war /home/ec2-user/.jenkins/workspace/CICD_Docker]
 
-WORKDIR /usr/local/tomcat
+WORKDIR /etc/docker
 
 # RUN /PullDockerImage_CICD/build-war.sh
 
