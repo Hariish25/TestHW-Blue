@@ -1,4 +1,4 @@
-FROM paranjothi/test:10
+FROM tomcat/latest
 
 MAINTAINER Paranjothi
 
