@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 	<head>
-		<title>JSP Test</title>
+		<title>Test deployment</title>
 		<%!
 			String title = "Hello World";
 		%>
@@ -11,13 +11,9 @@
 		<p>
 			Helloworld war-file was deployed!
 			
-			for TAG:18'th TEST
 		</p>
 		<p>
 			<%= new java.util.Date() %>
-		</p>
-		<p>
-			You are from <%= request.getRemoteAddr() %>
 		</p>
 		<div id="conrgrats"></div>
 
